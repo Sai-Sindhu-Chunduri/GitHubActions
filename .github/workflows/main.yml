@@ -1,0 +1,12 @@
+name: A Basic Workflow
+
+on:
+  push:
+    branches: ["main"]
+    # branches-ignore: ['ignore']
+    # paths: ".github/*"
+
+  pull_request:
+    branches: ["main"]
+
+  workflow_dispatch:
